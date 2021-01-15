@@ -1,0 +1,50 @@
+Web Browser:
+
+a web browser is a software which displays web pages when the users request.
+
+How Web Browsers Work over the internet ?
+
+a web browser mainly consists following parts they are :-
+
+1.UI Interface
+2.Browser Engine
+3.Rendering Engine
+4.Networking
+5.JavaScript Interpreter
+6.UI Backend
+7.Data Storage
+
+
+1.UI Interface : The user interface is the space where User interacts with the browser.
+
+2.Browser Engine : The browser engine works as a bridge between the User interface and the rendering engine.
+  According to the inputs from various user interfaces, it queries and manipulates the rendering engine.
+
+3.Rendering Engine :  The rendering engine, as the name suggests is responsible for rendering the
+requested web page on the browser screen. The rendering engine interprets the HTML, XML documents
+and images that are formatted using CSS and generates the layout that is displayed in the User Interface.
+However, using plugins or extensions, it can display other types data also. Different browsers user
+different rendering engines:
+
+* Internet Explorer: Trident
+* Firefox & other Mozilla browsers: Gecko
+* Chrome & Opera 15+: Blink
+* Chrome (iPhone) & Safari: Webkit
+
+4.Networking :  Component of the browser which retrieves the URLs using the common internet protocols
+of HTTP or FTP. The networking component handles all aspects of Internet communication and security.
+The network component may implement a cache of retrieved documents in order to reduce network traffic.
+
+5.JavaScript Interpreter : It is the component of the browser which interprets and executes the
+javascript code embedded in a website. The interpreted results are sent to the rendering engine
+for display. If the script is external then first the resource is fetched from the network.
+Parser keeps on hold until the script is executed.
+
+6.UI Backend : UI backend is used for drawing basic widgets like combo boxes and windows.
+This backend exposes a generic interface that is not platform specific. It underneath
+uses operating system user interface methods.
+
+7.Data Storage : This is a persistence layer. Browsers support storage mechanisms such as
+localStorage, IndexedDB, WebSQL and FileSystem. It is a small database created on the local
+drive of the computer where the browser is installed. It manages user data such as cache,
+cookies, bookmarks and preferences.
